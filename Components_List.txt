@@ -1,0 +1,23 @@
+Components:
+- Arduino UNO Rev 3
+- Buttons X6
+- RGB LEDS
+- Resistor list in the Building_Circuit.txt file
+- Shift Register (IC used for Arduino port expansion): 74HC595
+
+
+Connection modules:
+- Bluetooth: HC-05 or HC-06 (HC-05 is used in this configuration and I recommend its use. It supports Master and Slave modes and has additional pins)
+
+- WiFi: ESP32 has a 240 MHz dual-core processor, supports both 2.4 GHz and 5 GHz WiFi, and offers more flash memory, RAM and ROM capacity than the ESP8266. 
+	In addition, the ESP32 also has greater power management capability and supports several interfaces, including SPI, I2C, UART, ADC, DAC and PWM, and has the ability to operate in monitor mode
+
+- USB 3.0: Adafruit Feather M0 Adalogger
+
+- IR receiver: TSOP4838. Supported frequencies from 30kHz to 56kHz.
+
+- IR transmitter: VS1838B. Supports a frequency range of 20kHz to 60kHz, covering most frequencies used by common IR devices.
+
+- ETH Shield: Arduino MKR ETH Shield. Used for Ethernet connection (OPTIONAL. See Building_Circuit.txt file for its configuration (Default --> Disabled))
+
+- Portable battery: 3.7 V or higher, 18650 lithium/polymer battery or Adafruit's PowerBoost series LiPo batteries.
